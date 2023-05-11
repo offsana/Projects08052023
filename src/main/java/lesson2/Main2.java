@@ -5,10 +5,10 @@ package lesson2;
 public class Main2 {
     public static void main(String[] args) {
 
-        int result = sum1(10,2);
-        int result2 = sum2(15,5);
-        int result3 = sum3(3,3);
-        int result4 = sum4(15,3);
+        int result = addition(10,2);
+        int result2 = subtraction(15,5);
+        int result3 = multiplication(3,3);
+        int result4 = division(15,3);
 
         System.out.println("Выводим результат (+) " + result);
         System.out.println("Выводим результат (-) " + result2);
@@ -17,20 +17,20 @@ public class Main2 {
 
     }
 
-    public static int sum1 (int a,int b) {
-        int c =(a+b);
+    public static int addition (int a,int b) {
+        int c =a+b;
         return c;
     }
-    public static int sum2 (int a,int b) {
-        int d =(a-b);
+    public static int subtraction (int a,int b) {
+        int d =a-b;
         return d;
     }
-    public static int sum3 (int a,int b) {
-        int e =(a*b);
+    public static int multiplication (int a,int b) {
+        int e =a*b;
         return e;
     }
-    public static int sum4 (int a,int b) {
-        int g =(a/b);
+    public static int division (int a,int b) {
+        int g =a/b;
         return g;
     }
 }

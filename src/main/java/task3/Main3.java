@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Main3 {
     public static void main(String[] args) {
-        Scanner Conwert = new Scanner(System.in);
+        Scanner сonwert = new Scanner(System.in);
         System.out.println("Введите сумму в долларах");
-        String euro = Conwert.nextLine();
-        double result = (int) sum1(Integer.parseInt(euro),1.09);
-        System.out.print(result);
+        String euro = сonwert.nextLine();
+        double result = (double) sum1(Integer.parseInt(euro),1.09);
+        System.out.print("Сумма в евро "+result);
 
     }
     public static double sum1 (double a,double b){
