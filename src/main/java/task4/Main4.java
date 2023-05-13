@@ -11,7 +11,6 @@ public class Main4 {
 
         System.out.println(calories);
 
-
     }
 
     public static double pizza1 (double i) {
